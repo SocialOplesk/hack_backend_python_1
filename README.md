@@ -88,7 +88,7 @@ ENDPOINT:("/user")
 METHOD: "PUT"
 TYPE: JSON
 
-output => {'payload':'success'}
+output => {'payload':'success', 'error':False}
 
 ```
 <br/>
